@@ -1,0 +1,16 @@
+/* تخصيص شريط التمرير للمتصفحات التي تدعم ::-webkit-scrollbar */
+::-webkit-scrollbar {
+  width: 5px; /* عرض الشريط */
+}
+
+/* تخصيص لون الخلفية */
+::-webkit-scrollbar-track {
+  background: rgb(179, 176, 176); /* لون الشريط */
+
+}
+
+/* تخصيص لون الشريط نفسه */
+::-webkit-scrollbar-thumb {
+  background: rgb(42, 42, 255); /* لون خلفية الشريط */
+
+}
